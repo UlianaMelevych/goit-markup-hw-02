@@ -1,22 +1,38 @@
 body{
-    font-family: "Roboto", sans-serifs; 
-    width: 1440px;
-    height: 3300px;
-    color: #fff; 
-    background-color: #fff;
+    font-family: "Roboto" , sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 .navbar{
+    background-color: #fff;
     width: 1440px;
-    height: 72px;
+height: 72px;
 
 }
-.logo{
+
+.nav-menu-page{
     display: flex;
-align-items: center;
+align-items: flex-start;
 justify-content: flex-start;
 flex-direction: row;
-gap: 0px;
+gap: 40px;
+width: 261px;
+height: 24px;
+}
+.logo{
 font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.16667;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+width: 115px;
+height: 24px;
+text-decoration: none;
+}
+.logo-span{
+    font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
 line-height: 1.16667;
@@ -24,13 +40,186 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #2e2f42;
 }
-.nav-line{
-    width: 261px;
-   height: 24px;
-   font-family: "Roboto", sans-serif;
+.nav-menu{
+    font-family: "Roboto", sans-serif;
 font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #2e2f42;
+list-style-type: none;
+text-align: left;
+text-decoration: none;
+
+}
+
+.contacts{
+    font-family: "Roboto", sans-serif;
+font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+color: #434455;
+list-style-type: none;
+text-decoration: none;
+}
+.main-page-hero{
+    width: 1440px;
+height: 600px;
+background-color: #2e2f42;
+
+}
+.hero-title{
+    font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07143;
+letter-spacing: 0.02em;
+text-align: center;
+color: #fff;
+}
+.btn-hero{
+    font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background: #4d5ae5;
+
+}
+.feature-page{
+    width: 1128px;
+height: 515px;
+}
+.title-none{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.line-feature{
+    width: 264px;
+    height: 104px;
+}
+.itle-feature{
+    font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
 color: #2e2f42;
+}
+.descr-feature{
+    font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.team-page{
+    width: 1440px;
+height: 732px;
+background: #f4f4fd;
+
+}
+.team-title{
+    font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11111;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
+.team-list{
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.img-team{
+    width: 264px;
+height: 260px;
+background: url("path_to_image");
+list-style-type: none; 
+}
+.team-name{
+    font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+
+}
+.team-prof{
+    font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: center;
+color: #434455;
+
+}
+.portfolio-page{
+    width: 1128px;
+height: 1000px;
+}
+.portfolio-title{
+    font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11111;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
+.portfolio-line{
+    list-style-type: none;
+}
+.portfolio-img{
+    width: 360px;
+height: 300px;
+background: url("path_to_image");
+}
+.portfolio-descr{
+    font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+.portfolio-descr-line{
+    font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.footer-page{
+    width: 1440px;
+height: 312px;
+background: #2e2f42;
+}
+.footer-line{
+    font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #f4f4fd;
 }
